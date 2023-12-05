@@ -1,4 +1,4 @@
-fun getGameID(gameString: String): Int {
+private fun getGameID(gameString: String): Int {
     return gameString.substringAfter("Game ").substringBefore(":").toInt()
 }
 
